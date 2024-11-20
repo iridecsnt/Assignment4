@@ -1,0 +1,72 @@
+body {
+    font-family: Arial;
+    background-color: #f2f2f2;
+    color: #333;
+    padding: 10px;
+}
+
+header {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.logo {
+    max-width: 100px; 
+    height: auto;    
+    margin-bottom: 10px;
+}
+
+h1 {
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+h2 {
+    color: #333;
+}
+
+h3 {
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+input[type="radio"] {
+    margin-top: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
