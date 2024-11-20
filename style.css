@@ -1,5 +1,5 @@
 body {
-    font-family: Arial;
+    font-family: Arial, sans-serif;
     background-color: #f2f2f2;
     color: #333;
     padding: 10px;
@@ -11,8 +11,8 @@ header {
 }
 
 .logo {
-    max-width: 100px; 
-    height: auto;    
+    max-width: 100px;
+    height: auto;
     margin-bottom: 10px;
 }
 
@@ -34,6 +34,7 @@ a {
 
 h2 {
     color: #333;
+    text-align: center;
 }
 
 h3 {
@@ -52,6 +53,8 @@ textarea {
     width: 100%;
     padding: 5px;
     margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
 input[type="radio"] {
