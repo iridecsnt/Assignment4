@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Course Evaluation Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css"> <!-- Link to external CSS -->
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Centennial College Logo" class="logo"> <!-- Add your logo file name -->
+        <h1>Centennial College</h1>
+    </header>
+    <p>
+        <a href="https://www.centennialcollege.ca">Visit College Website</a>
+    </p>
+
+    <h2>Continuing Education Course/Instructor Evaluation Form</h2>
+    <form>
+        <h3>Course Information</h3>
+        <label>Course Name/Code:</label><br>
+        <input type="text" name="course-name"><br>
+        <label>Semester:</label><br>
+        <select name="semester">
+            <option>Fall</option>
+            <option>Winter</option>
+            <option>Spring/Summer</option>
+        </select><br>
+        <label>Year:</label><br>
+        <input type="number" name="year"><br>
+        <label>Instructor:</label><br>
+        <input type="text" name="instructor"><br>
+
+        <h3>Instructor Evaluation</h3>
+        <p>How would you rate the instructor's knowledge?</p>
+        <input type="radio" name="knowledge" value="excellent"> Excellent<br>
+        <input type="radio" name="knowledge" value="good"> Good<br>
+        <input type="radio" name="knowledge" value="fair"> Fair<br>
+        <input type="radio" name="knowledge" value="not-satisfactory"> Not Satisfactory<br>
+
+        <p>How would you rate the instructor's helpfulness?</p>
+        <input type="radio" name="helpfulness" value="excellent"> Excellent<br>
+        <input type="radio" name="helpfulness" value="good"> Good<br>
+        <input type="radio" name="helpfulness" value="fair"> Fair<br>
+        <input type="radio" name="helpfulness" value="not-satisfactory"> Not Satisfactory<br>
+
+        <h3>General Information</h3>
+        <p>Was the course outline reviewed/explained in the beginning of your course?</p>
+        <input type="radio" name="outline" value="yes"> Yes<br>
+        <input type="radio" name="outline" value="no"> No<br>
+        <input type="radio" name="outline" value="not-sure"> Not Sure<br>
+
+        <p>Would you recommend this course to a friend?</p>
+        <input type="radio" name="recommend" value="yes"> Yes<br>
+        <input type="radio" name="recommend" value="no"> No<br>
+        <input type="radio" name="recommend" value="not-sure"> Not Sure<br>
+        
+        <p>How would you rate this course overall?</p>
+        <input type="radio" name="knowledge" value="excellent"> Excellent<br>
+        <input type="radio" name="knowledge" value="good"> Good<br>
+        <input type="radio" name="knowledge" value="fair"> Fair<br>
+        <input type="radio" name="knowledge" value="not-satisfactory"> Not Satisfactory<br>
+
+        <label>Other Comments:</label><br>
+        <textarea name="comments" rows="4"></textarea><br>
+
+        <p>Thank you! For more information, visit our 
+            <a href="https://www.centennialcollege.ca/continuing_education">Continuing Education</a>
+            page or email us at 
+            <a href="mailto:continuingeducation@centennialcollege.ca">continuingeducation@centennialcollege.ca</a>.
+        </p>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
